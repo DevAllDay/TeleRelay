@@ -10,21 +10,17 @@ logger = logging.getLogger("telerelay")
 
 with open("config.json") as config:
     config = json.load(config)
-
-
 try:
 	phone = config["tg"]["phone_num"]
 	api_id = config["tg"]["app_id"]
 	api_hash = config["tg"]["app_hash"]
 	channelIds = config["tg"]["telegram_ids"]
 	webhook = Webhook.partial(config["discord"]["webhook_id"], config["discord"]["webhook_token"], adapter=RequestsWebhookAdapter())
-
 except:
 	logger.error("There seems to be something wrong with the config!")
-
+	
 client = TelegramClient(phone, api_id, api_hash).start(phone)    
 
-   
 @client.on(events.NewMessage(chats=channelIds))
 async def msg_handler(event):
     sender = await event.get_sender()
