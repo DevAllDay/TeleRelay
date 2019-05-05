@@ -1,0 +1,15 @@
+{
+    "tg": {
+        "app_id": 0000,
+        "app_hash": "0000",
+        "phone_num": "0000",
+        "telegram_ids": []
+    },
+
+    "discord" : {
+        "webhook_id": 000000000,
+        "webhook_token": "000000"
+    }
+
+}
+
