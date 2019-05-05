@@ -24,6 +24,7 @@ Now we can input these values into the config -
 `telegram_ids` - List of channel IDs you want to relay to Discord
 
 `discord`
+
 `webhook_id` - Integer, can be obtained from the first part of the webhook URL 
 `webhook_token` - String, can be obtained from the second part of the webhook URL
 
