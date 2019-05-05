@@ -20,13 +20,17 @@ Now we can input these values into the config -
 `tg`
 
 `app_id` - Integer
+
 `api_hash` - String
+
 `phone_num` - String, phone number used to sign in telegram
+
 `telegram_ids` - List of channel IDs you want to relay to Discord
 
 `discord`
 
 `webhook_id` - Integer, can be obtained from the first part of the webhook URL 
+
 `webhook_token` - String, can be obtained from the second part of the webhook URL
 
 Save the config now (CTRL+S) and make sure you named the config `config.json` otherwise `relay.py` won't be able to read it.
