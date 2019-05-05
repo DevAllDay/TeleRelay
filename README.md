@@ -7,6 +7,7 @@ To run the script to relay messages and media over to your discord channel, we n
 ```
 pip install -U telethon 
 pip install -U discord.py
+pip install -U requests
 ```
 After you've done that, you need git installed to clone this repo to your local desktop. 
 Clone the repo like so
