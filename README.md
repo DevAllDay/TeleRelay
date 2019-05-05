@@ -49,5 +49,7 @@ Telegram Entity ID Grabber
 Which channel/group/DM do you want the ID of? Use the number! 2
 123940094
 ```
+
 After you run `getID.py`, you'll see the same as above, it'll ask you for input to retrieve the ID from your dialogs or you can enter the username and it will fetch the ID for you and return it, but above we chose option 1 which was to retrieve my dialogs and then chose `123` channel to get the ID. You've got the ID from here now, all you need to do is insert it into the List in `config.json` and save it. 
+
 You can now run `relay.py` which should run smoothly :) 
