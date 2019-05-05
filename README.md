@@ -16,6 +16,7 @@ git clone https://github.com/DevAllDay/TeleRelay.git
 Before you run `relay.py`, we'll need to setup the `config.json` file - 
 To start off, you need to head to https://my.telegram.org and create a app which returns `app_id` and `app_hash`.
 Now we can input these values into the config -
+
 `tg`
 
 `app_id` - Integer
